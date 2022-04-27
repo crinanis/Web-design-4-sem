@@ -1,0 +1,128 @@
+/* Calendar */
+
+body {
+    padding-top: 50px;
+    font-family: 'Segoe UI Light', fantasy;
+    color: #333333;
+    margin: 0;
+    width: 100vw;   /*относительно размеров окна браузера*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 0 20px 0 20px;
+    height: 2em;
+    font-size: 15px;
+    display: inline-flex;
+    padding: 15px 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+td {
+    padding: 5px 10px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+td:hover {
+    background-color: #E1DBE5;
+}
+
+table {
+    border: 2px solid transparent;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+/* Notes */
+
+input, textarea, .button, button, .submit {
+    font-family: 'Segoe UI Light', fantasy;
+    background: #ADB5D3;
+    border: 1px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #333333;
+}
+
+
+input {
+    padding: 2px 0 2px 6px;
+    height: 20px;
+    width: 200px;
+    display: block;
+    margin: 10px 30px 10px 30px;
+}
+
+textarea {
+    height: 100px;
+    width: 250px;
+    resize: none;
+    padding: 4px 0 2px 4px;
+    margin: 0 0 10px 10px;
+}
+
+button {
+    height: 30px;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+   margin-left: 15px;
+}
+
+.notes {
+    width: 277px;
+    height: 470px;
+    border: 0 solid #F9F3F5;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+h3, h4, p {
+    padding: 0 0 5px 5px;
+}
+
+p {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+
+h4{
+    margin-top: -27px;
+}
+
+.edit {
+    margin: 50px 0 20px 10px;
+}
+
+.submit {
+    height: 2em;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
