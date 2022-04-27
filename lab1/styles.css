@@ -1,0 +1,27 @@
+td,th,table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+.salmony{
+    background: bisque;
+}
+.browny{
+    background: lightsalmon;
+}
+
+.browny, .salmony{
+    border:none;
+    width: 40px;
+    height: 40px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.table1, th{
+    border:none;
+}
+
+#root3, root4, h1,h3, th, tr{
+    font-family: "Segoe UI Light";
+}
