@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+  display: list-item;
+}
+
+li:hover {
+  background: thistle;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+ul {
+  border: 1px solid;
+  width: 170px;
+  margin-left: 33px;
+  margin-top: 3px;
+  padding-left: 0px;
+}
+
+img {
+  height: 10px;
+  width: 20px;
+  margin-bottom: -3px;
+  margin-right: 3px;
+}
+
+li img {
+  margin: 0px 3px;
+}
+
+label, table, button, input {
+  font-family: "Segoe UI Light";
+}
+
+#pik{
+  width: 60px;
+}
