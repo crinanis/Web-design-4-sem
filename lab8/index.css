@@ -1,0 +1,52 @@
+input, select, img, textarea {
+    display: block;
+    font-family: "Segoe UI Light", fantasy;
+    margin-top: 10px;
+    width: 170px;
+    background: #ADB5D3;
+    border: 1px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 14px;
+}
+.comment {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.comments {
+    font-family: "Segoe UI Light", fantasy;
+    display: block;
+
+}
+
+button, .send {
+    display: inline-block;
+    font-family: "Segoe UI Light", fantasy;
+    margin-top: 10px;
+    margin-right: 5px;
+    background: #ADB5D3;
+    border: 1px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    background: #ADB5D3;
+    color: #333333;
+}
+
+h2{
+    text-align: center;
+}

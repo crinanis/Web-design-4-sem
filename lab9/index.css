@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ADB5D3;
+    font-family: "Segoe UI Light", fantasy;
+}
+
+.one_good {
+    display: block;
+    margin: 30px 100px;
+    padding: 0;
+}
+
+.block {
+    display: flex;
+}
+
+.one_good img {
+    height: 200px;
+    margin-right: 10px;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}
+
+.sorts {
+    margin: 20px 100px;
+    display: inline-block;
+}
+
+.sorts button, button {
+    background: #ADB5D3;
+    color: #333333;
+    font-family: "Segoe UI Light", fantasy;
+
+    border: 1px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    padding: 15px 32px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s;
+
+    cursor: pointer;
+}
+
+.sorts button:hover {
+    cursor: pointer;
+    background-color: #008CBA
+}
+
+.discount h2 {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(245, 58, 58);
+    text-align: center;
+}
+
+.discount h2 + h2 {
+    margin: 7px;
+}
+
+.prices {
+    display: flex;
+}
+
+.prices h3 {
+    color: rgb(83, 83, 83);
+    margin-left: 10px;
+    text-decoration: line-through;
+}
