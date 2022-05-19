@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  background: #eedede;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", fantasy;
+  font-size: 16px;
+}
+
+.node {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.children-container {
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.icon, .arrow {
+  vertical-align: -60%;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  vertical-align: -10%;
+  margin-left: 10px;
+}
+
+.arrow.rotated {
+  transform: rotate(90deg);
+}
+
+.arrow.hidden {
+  visibility: hidden;
+}
+
